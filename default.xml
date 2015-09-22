@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="lucky"
+           fetch="git://github.com/ForeverLucky/"/>
+  <default revision="master"
+           remote="lucky" />
+
+  <project path="test" name="test" />
+  <project path="zxing" name="zxing" />
+  <project path="PermissionsDispatcher" name="PermissionsDispatcher" />
+
+</manifest>
